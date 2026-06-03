@@ -1,0 +1,11 @@
+# Pide a la usuaria un correo electronico
+correo_electronico = input("Ingresa un correo electrónico: ")
+
+# longitud del correo electronico
+longitud = len(correo_electronico)
+print(longitud)
+
+
+
+
+
