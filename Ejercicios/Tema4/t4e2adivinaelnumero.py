@@ -10,5 +10,6 @@ numero_elegido = int(input("Elige un número del 1 al 10: "))
 
 # Llamamos a la función y mostramos el mensaje
 mensaje = adivina_un_numero(numero_elegido)
+
 # Muestra por pantalla el número elegido y el mensaje.
 print(f"Has elegido el número {numero_elegido}. {mensaje}")
