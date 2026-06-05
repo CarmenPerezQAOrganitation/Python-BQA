@@ -10,3 +10,6 @@ print(f"{cantidad_en_euros} euros son equivalentes a {cantidad_en_dolares} dóla
 tasa_de_cambio_libras = 0.87 
 cantidad_en_libras = cantidad_en_euros * tasa_de_cambio_libras
 print(f"{cantidad_en_euros} euros son equivalentes a {cantidad_en_libras} libras.")
+
+# Muestra la cancidad en euros, dólares y libras
+print(f"{cantidad_en_euros} euros son equivalentes a {cantidad_en_dolares} dólares y {cantidad_en_libras} libras.")
