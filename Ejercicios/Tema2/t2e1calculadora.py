@@ -10,7 +10,7 @@ multiplicacion = numero1 * numero2
 division = numero1 / numero2
 
 #mostrar resultados
-print("suma", suma)
-print("resta", resta)
-print("multiplicacion", multiplicacion)
-print("division", division)
+print("El resultado de la suma es:", suma)
+print("El resultado de la resta es:", resta)
+print("El resultado de la multiplicación es:", multiplicacion)
+print("El resultado de la división es:", division)
