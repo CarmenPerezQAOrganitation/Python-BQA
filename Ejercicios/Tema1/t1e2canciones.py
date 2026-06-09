@@ -1,14 +1,9 @@
 # Cancion favorita
 canción = input("¿Cuál es tu canción favorita? ")
-
 artista = input("¿Quién es el artista?")
-
 álbum = input("¿A qué álbum pertenece la canción?")
-
 año_de_lanzamiento = int(input("¿En qué año se lanzo? "))
-
 segundos = float(input("¿Cuánto dura la canción? "))
-
 videoclip = input("¿Tiene videoclip? (sí/no) ").lower() == "sí"
 
 # Mostrar la información de la canción
@@ -22,15 +17,10 @@ print("La canción tiene videoclip:", videoclip)
 
 # Cancion que menos le gusta
 canción_menos_gustada = input("¿Cuál es la canción que menos te gusta? ")
-
 artista_menos_gustado = input("¿Quién es el artista?")
-
 álbum_menos_gustado = input("¿A qué álbum pertenece la canción?")
-
 año_de_lanzamiento_menos_gustado = int(input("¿En qué año se lanzo? "))
-
 segundos_menos_gustados = float(input("¿Cuánto dura la canción? "))
-
 videoclip_menos_gustado = input("¿Tiene videoclip? (sí/no) ").lower() == "sí"
 
 # Mostrar la información de la canción que no gusta
