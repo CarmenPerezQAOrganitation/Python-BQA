@@ -1,15 +1,18 @@
-# Pide a la usuaria la cantidad de euros a convertir
-cantidad_en_euros = float(input("Ingresa la cantidad de euros: "))
+# Función para convertir a dólares
+def convertir_a_dolares(euros):
+    return euros * 1.1
 
-#Convierte euros a dólares
-tasa_de_cambio = 1.1  
-cantidad_en_dolares = cantidad_en_euros * tasa_de_cambio
-print(f"{cantidad_en_euros} euros son equivalentes a {cantidad_en_dolares} dólares.")
+# Función para convertir a libras
+def convertir_a_libras(euros):
+    return euros * 0.87
 
-#Convierte euros a libras
-tasa_de_cambio_libras = 0.87 
-cantidad_en_libras = cantidad_en_euros * tasa_de_cambio_libras
-print(f"{cantidad_en_euros} euros son equivalentes a {cantidad_en_libras} libras.")
+# Pedir cantidad en euros
+cantidad_euros = float(input("Introduce una cantidad en euros: "))
 
-# Muestra la cancidad en euros, dólares y libras
-print(f"{cantidad_en_euros} euros son equivalentes a {cantidad_en_dolares} dólares y {cantidad_en_libras} libras.")
+# Guardar resultados
+dolares = convertir_a_dolares(cantidad_euros)
+libras = convertir_a_libras(cantidad_euros)
+
+# Mostrar resultados
+print(cantidad_euros, "euros son", dolares, "dólares.")
+print(cantidad_euros, "euros son", libras, "libras.")
