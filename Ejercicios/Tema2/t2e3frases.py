@@ -4,7 +4,7 @@ frase = input("Ingresa una frase: ")
 #Longitud de la frase
 texto = frase.replace(" ", "")  # Elimina los espacios para contar solo las letras
 longitud = len(texto)
-print(longitud)  # Salida: 10
+print(longitud)  
 
 # Convertir a mayúsculas
 mayusculas = frase.upper()
