@@ -24,29 +24,17 @@ print("Género:", Genero)
 print("Duración (minutos):", Duración)
 print("¿La película ha sido premiada?", Premiada)
 
+
 #Cambiar datos a inglés
-# Cadenas (strings)
-Title = "Lovers of the Polar Circle"
-
-# Cadenas
-Director = "Julio Medem"
-
-# Números enteros (int)
-Release_year = 1998
-
-# Cadenas
-Genre = "Romance, Drama"
-
-# Números decimales (float)
-Duration = 120.5
-
-# Booleanos
-Awarded = True
+# Cadenas 
+Titulo = "Lovers of the Polar Circle"
+Genero = "Romance, Drama"
+Premiada = True
 
 # Imprimir la información de la película en ingles
-print("Title:", Title)
+print("Título:", Titulo)
 print("Director:", Director)
-print("Release Year:", Release_year)
-print("Genre:", Genre)
-print("Duration (minutes):", Duration)
-print("Has the movie been awarded?", Awarded)
+print("Año de lanzamiento:", Año_lanzamiento)
+print("Género:", Genero)
+print("Duración (minutos):", Duración)
+print("¿La película ha sido premiada?", Premiada)
