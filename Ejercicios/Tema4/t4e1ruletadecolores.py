@@ -18,4 +18,5 @@ color_elegido = input("Elige un color (Rojo, Verde, Azul, Amarillo, Morado): ")
 mensaje = ruleta_de_colores(color_elegido)
 
 # Muestra por pantalla el color elegido y el mensaje.
-print(f"El color {color_elegido} representa: {mensaje}")
+print("Has elegido el color", color_elegido)
+print("Mensaje:", mensaje)
