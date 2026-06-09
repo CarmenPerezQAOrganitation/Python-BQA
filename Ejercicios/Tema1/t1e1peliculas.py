@@ -4,13 +4,13 @@ Titulo = "Los amantes del círculo polar"
 # Cadenas
 Director = "Julio Medem"
 
-# Números enteros (int)
+# Números enteros
 Año_lanzamiento = 1998
 
 # Cadenas
 Genero = "Romance, Drama"
 
-# Números decimales (float)
+# Números decimales
 Duración = 120.5
 
 # Booleanos
