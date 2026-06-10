@@ -1,3 +1,4 @@
+# Pide a la usuaria 5 colores
 for i in range(5):
     color = input("Introduce un color: ").lower()
 
