@@ -1,11 +1,11 @@
 # Función para calcular la nota media
 def calcular_media():
-    cantidad_notas = int(input("¿Cuántas notas deseas introducir? "))
+    cantidad_notas = int(input("¿Cuántas notas quieres introducir? "))
 
     suma = 0
 
     for i in range(cantidad_notas):
-        nota = float(input("Introduce una nota: "))
+        nota = float(input("Introduce una nota: " + str(i+1) + ": "))
         suma = suma + nota
 
     media = suma / cantidad_notas
