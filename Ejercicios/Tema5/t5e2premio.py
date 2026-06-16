@@ -4,5 +4,6 @@ for i in range(5):
 
     if color == "azul":
         print("¡Premio conseguido!")
-    else:
+        break;
+    elif i<4:
         print("Prueba otro color.")
