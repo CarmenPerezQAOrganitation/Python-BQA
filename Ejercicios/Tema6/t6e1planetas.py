@@ -1,11 +1,18 @@
-#Lista de planetas
-Planetas = ["Mercurio", "Venus", "Tierra", "Marte", "Júpiter", "Saturno", "Urano", "Neptuno"]
+def planeta(numero):
+    #Lista de planetas
+    planetas = ["Mercurio", "Venus", "Tierra", "Marte", "Júpiter", "Saturno", "Urano", "Neptuno"]
+    #Comprobar si es valido
+    if numero >= 1 and numero <= 8:
+        mensaje = "El planeta en la posición " + str(numero) + " es " + planetas[numero - 1]
+    else:
+        mensaje = "Error: número inválido."
+    return mensaje
+
 
 #Pide a la usuaria un número del 1 al 8
 numero = int(input("Introduce un número del 1 al 8: "))
 
-#Comprobar si es valido
-if numero >= 1 and numero <= 8:
-    print("El planeta en la posición", numero, "es", Planetas[numero - 1])
-else:
-    print("Error: número inválido.")
+#Obtiene el planeta
+nombre_planeta = planeta(numero)
+
+print(nombre_planeta)
