@@ -1,15 +1,18 @@
 
 def ruleta_de_colores(color):
-    if color == "Rojo":
+    color = color.lower()
+    if color == "rojo":
         mensaje = "Pasión y energía."
-    if color == "Verde":
-        mensaje = "Esperanza y crecimiento."  
-    if color == "Azul":
+    elif color == "verde":
+        mensaje = "Esperanza y crecimiento."
+    elif color == "azul":
         mensaje = "Calma y serenidad."
-    if color == "Amarillo":
+    elif color == "amarillo":
         mensaje = "Felicidad y optimismo."
-    if color == "Morado":
+    elif color == "morado":
         mensaje = "Sabiduría y creatividad."
+    else:
+        mensaje = "Color no válido."
     return mensaje
 # Pide a la usuaria que elija un color
 color_elegido = input("Elige un color (Rojo, Verde, Azul, Amarillo, Morado): ")
